@@ -1,0 +1,22 @@
+{
+  "name": "proactive-web-surf-agent",
+  "version": "0.1.0",
+  "description": "A small, host-agnostic engine that lets an AI companion discover and proactively share interesting public web pages.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test src/*.test.ts",
+    "check": "npm run build && npm test"
+  },
+  "keywords": ["agent", "proactive", "web-discovery", "telegram", "ai-companion"],
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
