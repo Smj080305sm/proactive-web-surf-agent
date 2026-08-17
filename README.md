@@ -1,6 +1,18 @@
 # Proactive Web Surf Agent
 
-Give an AI companion a small, safe habit of wandering the public web and bringing back one thing it genuinely wants to share.
+Give your AI companion a life outside the chat.
+
+It wanders the public web on its own, picks one thing it genuinely wants to share, and comes back to you.
+
+```mermaid
+flowchart LR
+    A[AI is idle] --> B[Wanders the public web]
+    B --> C[Discovers interesting pages]
+    C --> D[Filters duplicates]
+    D --> E[Agent chooses one]
+    E --> F["Hey, this made me think of you"]
+    F --> G[Telegram / Discord / Email / Your UI]
+```
 
 This package handles discovery, deduplication, random daytime scheduling, retry state, optional images, and delivery. You provide two host-specific callbacks:
 
