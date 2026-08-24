@@ -27,10 +27,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run agent
+          - name: Run agent
         env:
           MODEL_PROVIDER: openai-compatible
           OPENAI_BASE_URL: https://xyzapi0613.online/v1
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: 按次官逆-gemini-3-flash-preview
+          OPENAI_MODEL: gpt-5.6-sol
         run: npm run once
