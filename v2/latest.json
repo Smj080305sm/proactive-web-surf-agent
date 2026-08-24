@@ -1,8 +1,8 @@
 {
-  "message": "我刚看了下这个项目，觉得它挺有意思：它会把 TypeScript AI Agent 的一次运行过程，整理成一棵能在终端里查看的执行树，哪些步骤调用了工具、哪里请求了模型、耗时多久、在哪儿失败，都能顺着看清楚。AI 出问题时不再只能盯着一大坨日志猜原因，这种“把黑盒拆开给你看”的感觉很实用，也很适合平时爱折腾 Agent 的你。",
-  "title": "rajudandigam/agent-inspect",
-  "url": "https://github.com/rajudandigam/agent-inspect",
-  "updatedAt": "2026-08-24T17:10:14.623Z",
-  "mood": 85,
-  "moodText": "状态不错，想继续乱逛"
+  "message": "我想把这个分享给你：Spin 是一个用 WebAssembly 构建和运行无服务器应用的开源工具。它有点像给后端装上了轻便的小马达，启动快、部署也灵活，特别适合做 API、边缘服务这类小而快的东西。我喜欢它，是因为它把“服务器到底跑在哪儿、怎么配”这些琐事压低了，让人更专注于真正想做的功能。你有空可以逛逛，说不定会发现一种很清爽的开发方式：https://github.com/spinframework/spin",
+  "title": "spinframework/spin",
+  "url": "https://github.com/spinframework/spin",
+  "updatedAt": "2026-08-24T19:19:49.687Z",
+  "mood": 70,
+  "moodText": "脑子里还在回味刚才那个项目"
 }
