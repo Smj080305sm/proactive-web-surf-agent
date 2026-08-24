@@ -36,7 +36,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5.6-sol
           HTTP_TIMEOUT_MS: 180000
-          
+          COMPANION_PROMPT: "Always reply in Simplified Chinese. Write in a casual, warm and playful tone. First understand the page, then explain why you found it interesting in simple everyday Chinese. Avoid long technical summaries and avoid large blocks of English."
         run: npm run once  
       - name: Save latest recommendation
         run: |
