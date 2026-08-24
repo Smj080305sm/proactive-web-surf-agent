@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>阿屿敲敲</title>
+
+  <title>阿屿的小窝</title>
 
   <link rel="apple-touch-icon" href="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png">
+
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="阿屿敲敲">
+  <meta name="apple-mobile-web-app-title" content="阿屿的小窝">
 
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
@@ -123,6 +127,7 @@
       background: #fff;
       color: inherit;
       box-shadow: 0 6px 16px rgba(0,0,0,.05);
+      cursor: pointer;
     }
 
     button:active {
@@ -186,9 +191,11 @@
 </head>
 
 <body>
+
   <main class="wrap">
 
     <section class="profile">
+
       <img
         class="avatar"
         src="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png"
@@ -196,52 +203,108 @@
       >
 
       <div>
-        <div class="name">阿屿敲敲</div>
-        <div class="status" id="statusText">刚从互联网回来</div>
+        <div class="name">阿屿的小窝</div>
+        <div class="status" id="statusText">
+          刚从互联网回来
+        </div>
       </div>
+
     </section>
 
+
     <section class="card">
-      <div class="label">阿屿刚刚捡回来的东西</div>
+
+      <div class="label">
+        阿屿刚刚捡回来的东西
+      </div>
 
       <div id="message">
         正在翻阿屿的口袋……
       </div>
 
       <a id="link" target="_blank">
+
         <div class="find">
-          <div class="label">打开看看</div>
-          <div id="title">加载中…</div>
+
+          <div class="label">
+            打开看看
+          </div>
+
+          <div id="title">
+            加载中…
+          </div>
+
         </div>
+
       </a>
+
     </section>
 
+
     <section class="card">
+
       <div class="mood-row">
+
         <div>
-          <div class="label">阿屿今天的心情</div>
-          <div class="mood-number">
-            <span id="mood">--</span>
-            <span style="font-size:14px; opacity:.4;">/100</span>
+
+          <div class="label">
+            阿屿今天的心情
           </div>
+
+          <div class="mood-number">
+
+            <span id="mood">--</span>
+
+            <span style="font-size:14px; opacity:.4;">
+              /100
+            </span>
+
+          </div>
+
         </div>
 
-        <div style="font-size:34px;">🐾</div>
+        <div style="font-size:34px;">
+          🐾
+        </div>
+
       </div>
 
-      <div id="moodText">还没读取到今天的状态</div>
+      <div id="moodText">
+        还没读取到今天的状态
+      </div>
+
     </section>
 
+
     <section class="card">
-      <div class="label">戳戳他</div>
+
+      <div class="label">
+        戳戳阿屿
+      </div>
 
       <div class="actions">
-        <button id="pokeBtn">戳一下阿屿</button>
-        <button id="dogBtn">摸摸边牧</button>
-        <button class="wide" id="againBtn">再戳一下</button>
+
+        <button id="pokeBtn">
+          戳一下阿屿
+        </button>
+
+        <button id="dogBtn">
+          摸摸边牧
+        </button>
+
+        <button
+          class="wide"
+          id="againBtn"
+        >
+          再戳一下
+        </button>
+
       </div>
 
-      <div class="reaction" id="reaction">
+      <div
+        class="reaction"
+        id="reaction"
+      >
         他俩现在都装没看见。
       </div>
 
@@ -250,46 +313,64 @@
         src=""
         alt="阿屿的小表情"
       >
+
     </section>
 
+
     <section class="card">
-      <div class="label">给阿屿留句话</div>
+
+      <div class="label">
+        给阿屿留句话
+      </div>
 
       <textarea
         id="note"
-        placeholder="比如：今天肚子疼，别给我捡太难看的技术文档……"
+        placeholder="给阿屿留句话……"
       ></textarea>
 
-      <button class="save" id="saveNote">
+      <button
+        class="save"
+        id="saveNote"
+      >
         存起来
       </button>
 
       <div id="noteStatus">
         这条留言目前只存在你的手机里。
       </div>
+
     </section>
+
 
     <div id="time"></div>
 
   </main>
 
+
   <script>
+
     const pokeReplies = [
       "嗯？谁戳我。",
       "又戳我。",
       "看见了，别装。",
       "刚回来就被你抓住了。",
       "知道了，我在。",
-      "你今天是不是特别爱戳我。"
+      "你今天是不是特别爱戳我。",
+      "……再戳一下试试。",
+      "干嘛。想我了？"
     ];
+
 
     const dogReplies = [
       "边牧尾巴拍了两下地板。",
       "它抬头看你一眼，又凑过来了。",
       "它很配合地把下巴放下来了。",
       "摸到了，它现在一副很聪明的样子。",
-      "它看起来觉得这是理所当然的。"
+      "它看起来觉得这是理所当然的。",
+      "边牧眯起眼睛，没打算躲。",
+      "它看了阿屿一眼，又把脑袋递给你。"
     ];
+
 
     const ayuStickers = [
       "./ayu-01.png",
@@ -303,108 +384,221 @@
       "./ayu-09.png"
     ];
 
+
     function pick(arr) {
-      return arr[Math.floor(Math.random() * arr.length)];
+      return arr[
+        Math.floor(Math.random() * arr.length)
+      ];
     }
+
 
     function showSticker() {
-      const sticker = document.getElementById("reactionSticker");
-      sticker.src = pick(ayuStickers);
-      sticker.style.display = "block";
-    }
 
-    async function loadLatest() {
-      try {
-        const response = await fetch(
-          "./v2/latest.json?t=" + Date.now()
+      const sticker =
+        document.getElementById(
+          "reactionSticker"
         );
 
-        const data = await response.json();
+      sticker.src =
+        pick(ayuStickers);
 
-        document.getElementById("message").textContent =
-          data.message;
-
-        document.getElementById("title").textContent =
-          data.title;
-
-        document.getElementById("link").href =
-          data.url;
-
-        if (data.mood !== undefined) {
-          document.getElementById("mood").textContent =
-            data.mood;
-        }
-
-        if (data.moodText) {
-          document.getElementById("moodText").textContent =
-            data.moodText;
-        }
-
-        const time = new Date(data.updatedAt);
-
-        document.getElementById("time").textContent =
-          "阿屿回来于 " +
-          time.toLocaleString("zh-CN");
-
-        document.getElementById("statusText").textContent =
-          "刚逛完网，已经回来了";
-
-      } catch (error) {
-        document.getElementById("message").textContent =
-          "阿屿还在外面乱逛。";
-
-        document.getElementById("statusText").textContent =
-          "正在外面逛网";
-      }
+      sticker.style.display =
+        "block";
     }
 
+
+    async function loadLatest() {
+
+      try {
+
+        const response =
+          await fetch(
+            "./v2/latest.json?t=" +
+            Date.now()
+          );
+
+        const data =
+          await response.json();
+
+
+        document
+          .getElementById("message")
+          .textContent =
+          data.message;
+
+
+        document
+          .getElementById("title")
+          .textContent =
+          data.title;
+
+
+        document
+          .getElementById("link")
+          .href =
+          data.url;
+
+
+        if (
+          data.mood !== undefined
+        ) {
+
+          document
+            .getElementById("mood")
+            .textContent =
+            data.mood;
+
+        }
+
+
+        if (data.moodText) {
+
+          document
+            .getElementById("moodText")
+            .textContent =
+            data.moodText;
+
+        }
+
+
+        const time =
+          new Date(
+            data.updatedAt
+          );
+
+
+        document
+          .getElementById("time")
+          .textContent =
+          "阿屿回来于 " +
+          time.toLocaleString(
+            "zh-CN"
+          );
+
+
+        document
+          .getElementById(
+            "statusText"
+          )
+          .textContent =
+          "刚逛完网，已经回窝了";
+
+
+      } catch (error) {
+
+
+        document
+          .getElementById("message")
+          .textContent =
+          "阿屿还在外面乱逛。";
+
+
+        document
+          .getElementById(
+            "statusText"
+          )
+          .textContent =
+          "正在外面逛网";
+
+      }
+
+    }
+
+
     const reaction =
-      document.getElementById("reaction");
+      document.getElementById(
+        "reaction"
+      );
+
 
     document
       .getElementById("pokeBtn")
-      .addEventListener("click", () => {
-        reaction.textContent = pick(pokeReplies);
-        showSticker();
-      });
+      .addEventListener(
+        "click",
+        () => {
+
+          reaction.textContent =
+            pick(pokeReplies);
+
+          showSticker();
+
+        }
+      );
+
 
     document
       .getElementById("againBtn")
-      .addEventListener("click", () => {
-        reaction.textContent = pick(pokeReplies);
-        showSticker();
-      });
+      .addEventListener(
+        "click",
+        () => {
+
+          reaction.textContent =
+            pick(pokeReplies);
+
+          showSticker();
+
+        }
+      );
+
 
     document
       .getElementById("dogBtn")
-      .addEventListener("click", () => {
-        reaction.textContent = pick(dogReplies);
-        showSticker();
-      });
+      .addEventListener(
+        "click",
+        () => {
+
+          reaction.textContent =
+            pick(dogReplies);
+
+          showSticker();
+
+        }
+      );
+
 
     const note =
-      document.getElementById("note");
+      document.getElementById(
+        "note"
+      );
+
 
     const savedNote =
-      localStorage.getItem("ayu-note");
+      localStorage.getItem(
+        "ayu-note"
+      );
+
 
     if (savedNote) {
-      note.value = savedNote;
+      note.value =
+        savedNote;
     }
+
 
     document
       .getElementById("saveNote")
-      .addEventListener("click", () => {
-        localStorage.setItem(
-          "ayu-note",
-          note.value
-        );
+      .addEventListener(
+        "click",
+        () => {
 
-        document.getElementById("noteStatus").textContent =
-          "存好了。下次打开还在。";
-      });
+          localStorage.setItem(
+            "ayu-note",
+            note.value
+          );
+
+
+          document
+            .getElementById(
+              "noteStatus"
+            )
+            .textContent =
+            "存好了。下次打开还在。";
+
+        }
+      );
+
 
     loadLatest();
+
   </script>
 
 </body>
