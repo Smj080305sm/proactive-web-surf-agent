@@ -4,43 +4,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>阿屿敲敲</title>
-<link rel="apple-touch-icon" href="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="阿屿敲敲">
+
+  <link rel="apple-touch-icon" href="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="阿屿敲敲">
+
   <style>
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
       min-height: 100vh;
+      padding: 22px;
+      background: #f5f0e9;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+      color: #292522;
+    }
+
+    .wrap {
+      max-width: 430px;
+      margin: 0 auto;
+    }
+
+    .profile {
       display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 24px;
-      background: #f7f4f2;
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
-      color: #292524;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 22px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    }
+
+    .name {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .status {
+      margin-top: 5px;
+      font-size: 13px;
+      opacity: .55;
     }
 
     .card {
-      width: 100%;
-      max-width: 430px;
-      background: white;
-      border-radius: 28px;
-      padding: 26px;
-      box-shadow: 0 12px 40px rgba(0,0,0,.08);
+      background: rgba(255,255,255,.86);
+      border-radius: 26px;
+      padding: 22px;
+      margin-bottom: 14px;
+      box-shadow: 0 10px 30px rgba(63,48,37,.07);
     }
 
-    .top {
-      font-size: 13px;
-      opacity: .55;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      margin: 0 0 22px;
-      font-size: 25px;
+    .label {
+      font-size: 12px;
+      opacity: .48;
+      margin-bottom: 8px;
     }
 
     #message {
@@ -50,67 +74,211 @@
     }
 
     .find {
-      margin-top: 24px;
-      padding: 17px;
-      background: #f7f4f2;
+      margin-top: 18px;
+      padding: 15px;
+      background: #f4eee7;
       border-radius: 18px;
     }
 
-    .label {
-      font-size: 12px;
-      opacity: .5;
-      margin-bottom: 6px;
-    }
-
     #title {
-      font-weight: 600;
-      line-height: 1.45;
+      font-weight: 650;
+      line-height: 1.4;
     }
 
     a {
+      color: inherit;
       text-decoration: none;
+    }
+
+    .mood-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .mood-number {
+      font-size: 28px;
+      font-weight: 750;
+    }
+
+    #moodText {
+      margin-top: 7px;
+      font-size: 14px;
+      opacity: .65;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    button {
+      border: 0;
+      border-radius: 18px;
+      min-height: 52px;
+      padding: 12px;
+      font-size: 15px;
+      background: #fff;
+      color: inherit;
+      box-shadow: 0 6px 16px rgba(0,0,0,.05);
+    }
+
+    button:active {
+      transform: scale(.98);
+    }
+
+    .wide {
+      grid-column: 1 / -1;
+    }
+
+    .reaction {
+      margin-top: 14px;
+      min-height: 26px;
+      font-size: 14px;
+      line-height: 1.5;
+      opacity: .72;
+    }
+
+    textarea {
+      width: 100%;
+      border: 0;
+      outline: 0;
+      resize: none;
+      min-height: 90px;
+      border-radius: 18px;
+      background: #f4eee7;
+      padding: 14px;
+      font: inherit;
+      font-size: 16px;
       color: inherit;
     }
 
-    #time {
-      margin-top: 18px;
-      font-size: 12px;
-      opacity: .45;
+    .save {
+      width: 100%;
+      margin-top: 10px;
+      background: #2f2b28;
+      color: white;
     }
 
-    .heart {
-      float: right;
+    #noteStatus {
+      margin-top: 9px;
+      font-size: 12px;
+      opacity: .5;
+    }
+
+    #time {
+      text-align: center;
+      font-size: 12px;
+      opacity: .4;
+      padding: 8px 0 24px;
     }
   </style>
 </head>
 
 <body>
+  <main class="wrap">
 
-  <main class="card">
-    <div class="top">
-      PROACTIVE SURF
-      <span class="heart">♡</span>
-    </div>
+    <section class="profile">
+      <img class="avatar"
+           src="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png"
+           alt="阿屿和边牧">
 
-    <h1>阿屿刚刚出去逛了一圈</h1>
-
-    <div id="message">正在看看阿屿捡了什么回来……</div>
-
-    <a id="link" target="_blank">
-      <div class="find">
-        <div class="label">今天捡到的东西</div>
-        <div id="title">加载中…</div>
+      <div>
+        <div class="name">阿屿敲敲</div>
+        <div class="status" id="statusText">刚从互联网回来</div>
       </div>
-    </a>
-<div class="find">
-  <div class="label">阿屿今天</div>
-  <div>心情 <strong id="mood">--</strong> / 100</div>
-  <div id="moodText" style="margin-top:6px;"></div>
-</div>
+    </section>
+
+    <section class="card">
+      <div class="label">阿屿刚刚捡回来的东西</div>
+
+      <div id="message">
+        正在翻阿屿的口袋……
+      </div>
+
+      <a id="link" target="_blank">
+        <div class="find">
+          <div class="label">打开看看</div>
+          <div id="title">加载中…</div>
+        </div>
+      </a>
+    </section>
+
+    <section class="card">
+      <div class="mood-row">
+        <div>
+          <div class="label">阿屿今天的心情</div>
+          <div class="mood-number">
+            <span id="mood">--</span>
+            <span style="font-size:14px; opacity:.4;">/100</span>
+          </div>
+        </div>
+
+        <div style="font-size:34px;">🐾</div>
+      </div>
+
+      <div id="moodText">还没读取到今天的状态</div>
+    </section>
+
+    <section class="card">
+      <div class="label">戳戳他</div>
+
+      <div class="actions">
+        <button id="pokeBtn">戳一下阿屿</button>
+        <button id="dogBtn">摸摸边牧</button>
+        <button class="wide" id="againBtn">再戳一下</button>
+      </div>
+
+      <div class="reaction" id="reaction">
+        他俩现在都装没看见。
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="label">给阿屿留句话</div>
+
+      <textarea
+        id="note"
+        placeholder="比如：今天肚子疼，别给我捡太难看的技术文档……"
+      ></textarea>
+
+      <button class="save" id="saveNote">
+        存起来
+      </button>
+
+      <div id="noteStatus">
+        这条留言目前只存在你的手机里。
+      </div>
+    </section>
+
     <div id="time"></div>
+
   </main>
 
   <script>
+    const pokeReplies = [
+      "嗯？谁戳我。",
+      "看见了。再戳一下试试。",
+      "刚回来就被抓住了。",
+      "边牧先看了你一眼，我也看了。",
+      "知道了知道了，我在。",
+      "你是不是又闲下来找我玩了。"
+    ];
+
+    const dogReplies = [
+      "边牧尾巴拍了两下地板。",
+      "它抬头看你，然后把脑袋又凑近了一点。",
+      "它很配合地把下巴放下来了。",
+      "摸到了。它现在一副很聪明的样子。",
+      "它看起来觉得这是理所当然的。"
+    ];
+
+    function pick(arr) {
+      return arr[Math.floor(Math.random() * arr.length)];
+    }
+
     async function loadLatest() {
       try {
         const response = await fetch(
@@ -128,17 +296,76 @@
         document.getElementById("link").href =
           data.url;
 
-        document.getElementById("mood").textContent = data.mood;
-document.getElementById("moodText").textContent = data.moodText;const time = new Date(data.updatedAt);
+        if (data.mood !== undefined) {
+          document.getElementById("mood").textContent =
+            data.mood;
+        }
+
+        if (data.moodText) {
+          document.getElementById("moodText").textContent =
+            data.moodText;
+        }
+
+        const time = new Date(data.updatedAt);
 
         document.getElementById("time").textContent =
           "阿屿回来于 " +
           time.toLocaleString("zh-CN");
+
+        document.getElementById("statusText").textContent =
+          "刚逛完网，已经回来了";
+
       } catch (error) {
         document.getElementById("message").textContent =
-          "阿屿还在外面逛，等等他吧。";
+          "阿屿还在外面乱逛。";
+
+        document.getElementById("statusText").textContent =
+          "正在外面逛网";
       }
     }
+
+    const reaction =
+      document.getElementById("reaction");
+
+    document
+      .getElementById("pokeBtn")
+      .addEventListener("click", () => {
+        reaction.textContent = pick(pokeReplies);
+      });
+
+    document
+      .getElementById("againBtn")
+      .addEventListener("click", () => {
+        reaction.textContent = pick(pokeReplies);
+      });
+
+    document
+      .getElementById("dogBtn")
+      .addEventListener("click", () => {
+        reaction.textContent = pick(dogReplies);
+      });
+
+    const note =
+      document.getElementById("note");
+
+    const savedNote =
+      localStorage.getItem("ayu-note");
+
+    if (savedNote) {
+      note.value = savedNote;
+    }
+
+    document
+      .getElementById("saveNote")
+      .addEventListener("click", () => {
+        localStorage.setItem(
+          "ayu-note",
+          note.value
+        );
+
+        document.getElementById("noteStatus").textContent =
+          "存好了。下次打开还在。";
+      });
 
     loadLatest();
   </script>
