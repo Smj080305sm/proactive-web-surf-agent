@@ -1,6 +1,8 @@
 {
-  "message": "我想和你分享这个小工具：agent-inspect。它能把 TypeScript AI agent 一次运行里的每一步——调用了哪些工具、问了模型什么、哪里出错、各自花了多久——整理成一棵清清楚楚的执行树。这个点我觉得特别有意思：AI 不再像一个神秘黑盒，出了问题可以顺着过程一点点查，像给它装上了透明的行车记录仪。很适合拿来调试那些“它刚才到底做了什么？”的瞬间。https://github.com/rajudandigam/agent-inspect",
+  "message": "这个项目我挺想和你分享：它会把 TypeScript AI agent 的一次运行整理成一棵清清楚楚的执行树，工具调用、模型请求、耗时和失败点都能看到。AI 出问题时，不用对着一堆日志发呆，顺着树往回找就行，特别适合喜欢把“它到底做了什么”弄明白的人。",
   "title": "rajudandigam/agent-inspect",
   "url": "https://github.com/rajudandigam/agent-inspect",
-  "updatedAt": "2026-08-24T16:59:37.623Z"
+  "updatedAt": "2026-08-24T17:05:33.114Z",
+  "mood": 70,
+  "moodText": "脑子里还在回味刚才那个项目"
 }
