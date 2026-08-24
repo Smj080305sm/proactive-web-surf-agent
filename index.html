@@ -141,6 +141,14 @@
       opacity: .72;
     }
 
+    #reactionSticker {
+      display: none;
+      width: 100%;
+      max-width: 220px;
+      margin: 14px auto 0;
+      border-radius: 18px;
+    }
+
     textarea {
       width: 100%;
       border: 0;
@@ -181,9 +189,11 @@
   <main class="wrap">
 
     <section class="profile">
-      <img class="avatar"
-           src="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png"
-           alt="阿屿和边牧">
+      <img
+        class="avatar"
+        src="./C7BA7259-048D-43EC-A85A-3DA2054059DF.png"
+        alt="阿屿和边牧"
+      >
 
       <div>
         <div class="name">阿屿敲敲</div>
@@ -234,6 +244,12 @@
       <div class="reaction" id="reaction">
         他俩现在都装没看见。
       </div>
+
+      <img
+        id="reactionSticker"
+        src=""
+        alt="阿屿的小表情"
+      >
     </section>
 
     <section class="card">
@@ -260,23 +276,41 @@
   <script>
     const pokeReplies = [
       "嗯？谁戳我。",
-      "看见了。再戳一下试试。",
-      "刚回来就被抓住了。",
-      "边牧先看了你一眼，我也看了。",
-      "知道了知道了，我在。",
-      "你是不是又闲下来找我玩了。"
+      "又戳我。",
+      "看见了，别装。",
+      "刚回来就被你抓住了。",
+      "知道了，我在。",
+      "你今天是不是特别爱戳我。"
     ];
 
     const dogReplies = [
       "边牧尾巴拍了两下地板。",
-      "它抬头看你，然后把脑袋又凑近了一点。",
+      "它抬头看你一眼，又凑过来了。",
       "它很配合地把下巴放下来了。",
-      "摸到了。它现在一副很聪明的样子。",
+      "摸到了，它现在一副很聪明的样子。",
       "它看起来觉得这是理所当然的。"
+    ];
+
+    const ayuStickers = [
+      "./ayu-01.png",
+      "./ayu-02.png",
+      "./ayu-03.png",
+      "./ayu-04.png",
+      "./ayu-05.png",
+      "./ayu-06.png",
+      "./ayu-07.png",
+      "./ayu-08.png",
+      "./ayu-09.png"
     ];
 
     function pick(arr) {
       return arr[Math.floor(Math.random() * arr.length)];
+    }
+
+    function showSticker() {
+      const sticker = document.getElementById("reactionSticker");
+      sticker.src = pick(ayuStickers);
+      sticker.style.display = "block";
     }
 
     async function loadLatest() {
@@ -331,18 +365,21 @@
       .getElementById("pokeBtn")
       .addEventListener("click", () => {
         reaction.textContent = pick(pokeReplies);
+        showSticker();
       });
 
     document
       .getElementById("againBtn")
       .addEventListener("click", () => {
         reaction.textContent = pick(pokeReplies);
+        showSticker();
       });
 
     document
       .getElementById("dogBtn")
       .addEventListener("click", () => {
         reaction.textContent = pick(dogReplies);
+        showSticker();
       });
 
     const note =
