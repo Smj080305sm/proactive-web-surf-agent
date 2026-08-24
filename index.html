@@ -99,7 +99,11 @@
         <div id="title">加载中…</div>
       </div>
     </a>
-
+<div class="find">
+  <div class="label">阿屿今天</div>
+  <div>心情 <strong id="mood">--</strong> / 100</div>
+  <div id="moodText" style="margin-top:6px;"></div>
+</div>
     <div id="time"></div>
   </main>
 
@@ -121,7 +125,8 @@
         document.getElementById("link").href =
           data.url;
 
-        const time = new Date(data.updatedAt);
+        document.getElementById("mood").textContent = data.mood;
+document.getElementById("moodText").textContent = data.moodText;const time = new Date(data.updatedAt);
 
         document.getElementById("time").textContent =
           "阿屿回来于 " +
