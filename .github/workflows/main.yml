@@ -20,17 +20,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: npm
           cache-dependency-path: v2/package-lock.json
 
       - name: Install dependencies
         run: npm ci
 
-     - name: Run agent
+      - name: Run agent
         env:
           MODEL_PROVIDER: openai-compatible
           OPENAI_BASE_URL: https://xyzapi0613.online/v1
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5.6-sol
-        run: npm run once    
+        run: npm run once
