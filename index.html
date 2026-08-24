@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿屿敲敲</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #f7f4f2;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+      color: #292524;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      background: white;
+      border-radius: 28px;
+      padding: 26px;
+      box-shadow: 0 12px 40px rgba(0,0,0,.08);
+    }
+
+    .top {
+      font-size: 13px;
+      opacity: .55;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: 25px;
+    }
+
+    #message {
+      font-size: 16px;
+      line-height: 1.75;
+      white-space: pre-wrap;
+    }
+
+    .find {
+      margin-top: 24px;
+      padding: 17px;
+      background: #f7f4f2;
+      border-radius: 18px;
+    }
+
+    .label {
+      font-size: 12px;
+      opacity: .5;
+      margin-bottom: 6px;
+    }
+
+    #title {
+      font-weight: 600;
+      line-height: 1.45;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    #time {
+      margin-top: 18px;
+      font-size: 12px;
+      opacity: .45;
+    }
+
+    .heart {
+      float: right;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+    <div class="top">
+      PROACTIVE SURF
+      <span class="heart">♡</span>
+    </div>
+
+    <h1>阿屿刚刚出去逛了一圈</h1>
+
+    <div id="message">正在看看阿屿捡了什么回来……</div>
+
+    <a id="link" target="_blank">
+      <div class="find">
+        <div class="label">今天捡到的东西</div>
+        <div id="title">加载中…</div>
+      </div>
+    </a>
+
+    <div id="time"></div>
+  </main>
+
+  <script>
+    async function loadLatest() {
+      try {
+        const response = await fetch(
+          "./v2/latest.json?t=" + Date.now()
+        );
+
+        const data = await response.json();
+
+        document.getElementById("message").textContent =
+          data.message;
+
+        document.getElementById("title").textContent =
+          data.title;
+
+        document.getElementById("link").href =
+          data.url;
+
+        const time = new Date(data.updatedAt);
+
+        document.getElementById("time").textContent =
+          "阿屿回来于 " +
+          time.toLocaleString("zh-CN");
+      } catch (error) {
+        document.getElementById("message").textContent =
+          "阿屿还在外面逛，等等他吧。";
+      }
+    }
+
+    loadLatest();
+  </script>
+
+</body>
+</html>
