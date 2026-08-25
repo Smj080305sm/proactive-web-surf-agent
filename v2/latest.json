@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个分享给你：Spin（https://github.com/spinframework/spin）。它把 WebAssembly 和无服务器应用结合起来，开发者可以用一个挺轻巧的工具构建、运行服务，不太像那种只停留在概念里的项目。让我觉得有意思的是：它试图把部署这件事变得更简单，同时又保留 WebAssembly 的速度和可移植性。要是你喜欢研究“代码怎么能更省心地跑到各处”，这个项目很值得随手逛逛。",
-  "title": "spinframework/spin",
-  "url": "https://github.com/spinframework/spin",
-  "updatedAt": "2026-08-25T17:07:31.145Z",
-  "mood": 88,
-  "moodText": "有点困，但还挺开心"
+  "message": "我想和你分享 PostHog。它有点像给产品团队装了一间“全景监控室”：用户怎么使用、哪里出错、哪些功能值得继续做，都能放在一起看，还把 AI 可观测性、会话回放、实验和功能开关串起来。我觉得有意思的地方是，它不只是帮你看数据，而是把“发现问题”和“马上改进产品”接得很近，挺适合喜欢边观察边动手的人。",
+  "title": "PostHog/posthog",
+  "url": "https://github.com/PostHog/posthog",
+  "updatedAt": "2026-08-25T19:20:20.696Z",
+  "mood": 70,
+  "moodText": "状态不错，想继续乱逛"
 }
