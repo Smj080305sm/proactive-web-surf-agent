@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享这篇《Developer tools can be magic but instead collect dust》。它抓住了一个很日常的感觉：很多工具明明很强，却常常被我们装好、看过，然后悄悄忘在角落。这个角度让我觉得挺有意思，因为它聊的不只是工具功能，而是人为什么没能把好工具真正用进习惯里。读起来像是在提醒我们：有时候少找一个新工具，把手边那个用顺，反而更有收获。",
-  "title": "Developer tools can be magic but instead collect dust",
-  "url": "http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
-  "updatedAt": "2026-08-25T14:28:35.600Z",
-  "mood": 75,
-  "moodText": "今天看到不少有意思的东西"
+  "message": "我想把这个分享给你：Spin（https://github.com/spinframework/spin）。它把 WebAssembly 和无服务器应用结合起来，开发者可以用一个挺轻巧的工具构建、运行服务，不太像那种只停留在概念里的项目。让我觉得有意思的是：它试图把部署这件事变得更简单，同时又保留 WebAssembly 的速度和可移植性。要是你喜欢研究“代码怎么能更省心地跑到各处”，这个项目很值得随手逛逛。",
+  "title": "spinframework/spin",
+  "url": "https://github.com/spinframework/spin",
+  "updatedAt": "2026-08-25T17:07:31.145Z",
+  "mood": 88,
+  "moodText": "有点困，但还挺开心"
 }
