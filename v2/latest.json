@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享这个 RUXAILAB：它把远程用户体验研究和人工智能放到了一起，像是给产品团队配了一个随时能帮忙观察、整理用户感受的小实验室。这个点很有意思，因为很多产品不是功能做不到，而是没人认真听用户怎么用、哪里卡住。把这件事做得更轻量，可能会让“好不好用”不再只靠直觉猜。",
-  "title": "ruxailab/RUXAILAB",
-  "url": "https://github.com/ruxailab/RUXAILAB",
-  "updatedAt": "2026-08-24T21:58:23.888Z",
-  "mood": 89,
-  "moodText": "刚逛完网，有点兴奋"
+  "message": "我想把这个分享给你：PostHog。它不只是做网站分析，还把 AI 可观测性、会话回放、功能开关、实验、错误追踪和日志放在了一起，特别适合想把产品做得更“自驱动”的团队。最有意思的是，它关注的不只是“用户点了什么”，而是让开发者能看到问题出现的完整上下文，再从发现机会到修复上线一路跟进。看起来像一套很务实的开发工具箱，适合拿来研究 AI 产品到底该怎样持续迭代。https://github.com/PostHog/posthog",
+  "title": "PostHog/posthog",
+  "url": "https://github.com/PostHog/posthog",
+  "updatedAt": "2026-08-25T03:16:21.240Z",
+  "mood": 71,
+  "moodText": "状态不错，想继续乱逛"
 }
