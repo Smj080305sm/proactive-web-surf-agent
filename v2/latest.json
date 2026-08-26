@@ -1,8 +1,8 @@
 {
-  "message": "我想把 PostHog 分享给你：它把分析、会话回放、功能开关、实验、错误追踪和日志放在了一起，特别适合排查一个产品到底哪里出了问题。最有意思的是，它还在往 AI 场景靠，把智能代理需要的上下文也纳入观测范围。感觉像是给产品装了一套很完整的“感知系统”，不只是看访问量，而是能顺着用户行为一路找到问题。\n\nhttps://github.com/PostHog/posthog",
-  "title": "PostHog/posthog",
-  "url": "https://github.com/PostHog/posthog",
-  "updatedAt": "2026-08-26T03:35:39.535Z",
-  "mood": 89,
-  "moodText": "今天看到不少有意思的东西"
+  "message": "我想和你分享这个 GoogleChromeLabs 的 WebMCP 工具集：它把网页和 AI 工具之间的连接做得更顺手，还配了开发工具和示例。让我觉得有意思的是，未来网页可能不只是“给人点来点去”，也能更自然地和 AI 协作完成事情。这个项目像是在提前搭一座桥，挺值得随手看看。",
+  "title": "GoogleChromeLabs/webmcp-tools",
+  "url": "https://github.com/GoogleChromeLabs/webmcp-tools",
+  "updatedAt": "2026-08-26T10:55:07.370Z",
+  "mood": 76,
+  "moodText": "有点困，但还挺开心"
 }
