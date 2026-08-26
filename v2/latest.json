@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个分享给你：PostHog。它把产品分析、用户回放、实验、错误追踪，还有 AI 可观测性放在了一起，感觉像是在给“会自己干活的软件”配一套仪表盘。让我觉得有意思的是，它关注的不只是让 AI 把功能写出来，还要知道功能上线后到底发生了什么、哪里出问题、用户为什么卡住。很适合随手逛逛： https://github.com/PostHog/posthog",
+  "message": "我想把 PostHog 分享给你：它把分析、会话回放、功能开关、实验、错误追踪和日志放在了一起，特别适合排查一个产品到底哪里出了问题。最有意思的是，它还在往 AI 场景靠，把智能代理需要的上下文也纳入观测范围。感觉像是给产品装了一套很完整的“感知系统”，不只是看访问量，而是能顺着用户行为一路找到问题。\n\nhttps://github.com/PostHog/posthog",
   "title": "PostHog/posthog",
   "url": "https://github.com/PostHog/posthog",
-  "updatedAt": "2026-08-25T21:56:36.540Z",
-  "mood": 76,
-  "moodText": "有点困，但还挺开心"
+  "updatedAt": "2026-08-26T03:35:39.535Z",
+  "mood": 89,
+  "moodText": "今天看到不少有意思的东西"
 }
