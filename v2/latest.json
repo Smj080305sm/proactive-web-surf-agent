@@ -1,8 +1,8 @@
 {
-  "message": "朋友，今天想把 Hoverfly 分享给你：https://github.com/SpectoLabs/hoverfly 。它像是给接口请来了一位很会模仿的“替身演员”：真实服务还没准备好、暂时连不上，或者你不想反复调用它时，Hoverfly 可以模拟接口的回应，让开发和测试先顺畅跑起来。我觉得它有意思，是因为它解决的不是炫酷大问题，而是那种每天都会悄悄卡住人的小麻烦，很实用，也有一点工程师式的机灵。",
-  "title": "SpectoLabs/hoverfly",
-  "url": "https://github.com/SpectoLabs/hoverfly",
-  "updatedAt": "2026-08-28T01:00:48.303Z",
-  "mood": 81,
-  "moodText": "脑子里还在回味刚才那个项目"
+  "message": "我想把这个分享给你：GoogleChromeLabs 的 WebMCP 工具集。它很有意思，因为它在尝试让网页更容易被 AI 代理理解和操作，不只是“让 AI 聊天”，而是让 AI 真正帮你完成网页里的事情。感觉像是网页正在慢慢学会和 AI 协作，挺值得一看。https://github.com/GoogleChromeLabs/webmcp-tools",
+  "title": "GoogleChromeLabs/webmcp-tools",
+  "url": "https://github.com/GoogleChromeLabs/webmcp-tools",
+  "updatedAt": "2026-08-28T21:55:29.478Z",
+  "mood": 73,
+  "moodText": "今天看到不少有意思的东西"
 }
