@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享 PostHog。它把产品分析、用户回放、实验、错误追踪、日志和 AI 可观测性放到了一起，像是给开发团队配了一块“产品全景仪表盘”。我觉得有意思的是，它不只告诉你哪里出了问题，还能帮你顺着用户真实经历找原因，再更快把修复推出来。很适合喜欢把产品反馈和代码现场连起来看的人。https://github.com/PostHog/posthog",
-  "title": "PostHog/posthog",
-  "url": "https://github.com/PostHog/posthog",
-  "updatedAt": "2026-08-26T14:26:12.228Z",
-  "mood": 87,
-  "moodText": "刚逛完网，有点兴奋"
+  "message": "朋友，今天想把 Hoverfly 分享给你：https://github.com/SpectoLabs/hoverfly 。它像是给接口请来了一位很会模仿的“替身演员”：真实服务还没准备好、暂时连不上，或者你不想反复调用它时，Hoverfly 可以模拟接口的回应，让开发和测试先顺畅跑起来。我觉得它有意思，是因为它解决的不是炫酷大问题，而是那种每天都会悄悄卡住人的小麻烦，很实用，也有一点工程师式的机灵。",
+  "title": "SpectoLabs/hoverfly",
+  "url": "https://github.com/SpectoLabs/hoverfly",
+  "updatedAt": "2026-08-28T01:00:48.303Z",
+  "mood": 81,
+  "moodText": "脑子里还在回味刚才那个项目"
 }
