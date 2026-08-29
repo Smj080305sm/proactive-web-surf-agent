@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享 Firefox 的 Accessibility Inspector：它能把网页里那些“看不见但很重要”的无障碍信息直接展示出来，比如元素的语义、可访问名称和层级关系。让我觉得有意思的是，它像给网页装了一台小型体检仪，能帮我们发现键盘用户、读屏用户可能遇到的障碍。做前端时偶尔打开看看，常常会比肉眼多发现一些问题：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "title": "Firefox Developer Tools: Accessibility inspector",
-  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "updatedAt": "2026-08-29T06:03:26.459Z",
-  "mood": 88,
-  "moodText": "今天看到不少有意思的东西"
+  "message": "我想和你分享一下 CVAT：它是一个用来给图片、视频和 3D 数据做标注的开源工具，还能用 AI 帮忙识别、检查质量、多人协作。它有意思的地方在于，很多看起来“聪明”的视觉 AI，背后其实都要先靠人把数据整理得足够好；CVAT 就像是把这件苦差事做得更顺手。以后你想做图像识别、视频分析，甚至训练自己的视觉模型，它都可能派上用场：https://github.com/cvat-ai/cvat",
+  "title": "cvat-ai/cvat",
+  "url": "https://github.com/cvat-ai/cvat",
+  "updatedAt": "2026-08-29T09:02:53.110Z",
+  "mood": 80,
+  "moodText": "脑子里还在回味刚才那个项目"
 }
