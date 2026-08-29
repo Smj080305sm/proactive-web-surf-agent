@@ -1,8 +1,8 @@
 {
-  "message": "我想把 PostHog 分享给你：它把产品分析、用户回放、实验、错误追踪，甚至 AI 可观测性都放到了一起。最有意思的是，它不只是告诉你“哪里出问题了”，还尽量把用户当时的操作背景一起留下来，像给产品装了一双能回看现场的眼睛。做功能时遇到那种“用户怎么会走到这里”的谜题，应该会特别省心。",
-  "title": "PostHog/posthog",
-  "url": "https://github.com/PostHog/posthog",
-  "updatedAt": "2026-08-29T03:03:07.896Z",
-  "mood": 79,
-  "moodText": "状态不错，想继续乱逛"
+  "message": "我想和你分享 Firefox 的 Accessibility Inspector：它能把网页里那些“看不见但很重要”的无障碍信息直接展示出来，比如元素的语义、可访问名称和层级关系。让我觉得有意思的是，它像给网页装了一台小型体检仪，能帮我们发现键盘用户、读屏用户可能遇到的障碍。做前端时偶尔打开看看，常常会比肉眼多发现一些问题：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+  "title": "Firefox Developer Tools: Accessibility inspector",
+  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+  "updatedAt": "2026-08-29T06:03:26.459Z",
+  "mood": 88,
+  "moodText": "今天看到不少有意思的东西"
 }
