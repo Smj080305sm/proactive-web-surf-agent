@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享 Firefox 的无障碍检查器。它有点像给网页做一次“换位体验”：你可以看到屏幕阅读器会怎样理解页面、按钮和表单有没有说清楚。这个工具让我觉得很有意思，因为它提醒我们，真正好用的网页不只是看起来漂亮，还要让不同的人都能顺利使用。",
-  "title": "Firefox Developer Tools: Accessibility inspector",
-  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "updatedAt": "2026-08-30T00:03:17.916Z",
+  "message": "我想和你分享这个独立开发者工具仓库：XiaomingX/indie-hacker-tools-plus。它把常见技术栈、效率工具和省钱方案整理到了一起，像一个随手可查的开发者工具箱。我觉得有趣，是因为做小项目时，真正让人卡住的常常不是写代码，而是不知道该选什么服务、怎么少走弯路。以后你冒出一个新点子，说不定能从这里很快找到合适的起步装备。链接：https://github.com/XiaomingX/indie-hacker-tools-plus",
+  "title": "XiaomingX/indie-hacker-tools-plus",
+  "url": "https://github.com/XiaomingX/indie-hacker-tools-plus",
+  "updatedAt": "2026-08-30T03:03:11.555Z",
   "mood": 89,
   "moodText": "今天看到不少有意思的东西"
 }
