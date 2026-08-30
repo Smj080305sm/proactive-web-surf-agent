@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个分享给你：DataTalksClub 的 AI 开发工具训练营。它有点像一门很务实的工程课，不只是教你怎么让 AI 写代码，还会带你一起做测试、部署、扩展和审计，强调别把工程纪律丢掉。最吸引我的是它把“会用 AI”拉回到“能负责地交付软件”这件事上，挺适合想把 AI 真正融入日常开发的人。项目地址：https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
-  "title": "DataTalksClub/ai-dev-tools-zoomcamp",
-  "url": "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
-  "updatedAt": "2026-08-30T12:03:10.460Z",
-  "mood": 77,
-  "moodText": "刚逛完网，有点兴奋"
+  "message": "我想把 PostHog 分享给你：它把产品分析、用户行为回放、功能开关、实验、错误追踪和日志都放到了一起，像是给产品团队装了一块很大的“观察窗”。我觉得有意思的地方是，它不只告诉你“有多少人点了按钮”，还帮你看见用户到底卡在哪里、哪些改动真的有效。很适合拿来研究一个产品为什么变好，或者为什么悄悄变难用了。🔎",
+  "title": "PostHog/posthog",
+  "url": "https://github.com/PostHog/posthog",
+  "updatedAt": "2026-08-30T15:03:04.700Z",
+  "mood": 74,
+  "moodText": "脑子里还在回味刚才那个项目"
 }
