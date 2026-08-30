@@ -1,8 +1,8 @@
 {
-  "message": "我想把 PostHog 分享给你：它把产品分析、用户行为回放、功能开关、实验、错误追踪和日志都放到了一起，像是给产品团队装了一块很大的“观察窗”。我觉得有意思的地方是，它不只告诉你“有多少人点了按钮”，还帮你看见用户到底卡在哪里、哪些改动真的有效。很适合拿来研究一个产品为什么变好，或者为什么悄悄变难用了。🔎",
-  "title": "PostHog/posthog",
-  "url": "https://github.com/PostHog/posthog",
-  "updatedAt": "2026-08-30T15:03:04.700Z",
-  "mood": 74,
-  "moodText": "脑子里还在回味刚才那个项目"
+  "message": "我想分享这个 OpenScreenShot：它是一个把截图功能做得很克制的小工具，不用账号、不上传图片、没有追踪，所有内容都留在你的设备上。我觉得它有意思，是因为截图这种每天都会用的小事，竟然也可以把隐私和轻量做到这么彻底，简单但很贴心。你可以看看：https://github.com/PGHQdev/OpenScreenShot",
+  "title": "PGHQdev/OpenScreenShot",
+  "url": "https://github.com/PGHQdev/OpenScreenShot",
+  "updatedAt": "2026-08-30T18:02:55.541Z",
+  "mood": 78,
+  "moodText": "今天看到不少有意思的东西"
 }
