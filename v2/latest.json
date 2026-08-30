@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享这个 Firefox 的无障碍检查器：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector。它能把网页里那些“看起来没问题、其实不太好用”的地方找出来，比如按钮没有清楚的名字、颜色对比不够，或者键盘用户根本点不到。这个工具有意思的地方在于，它会让我们换个角度看网页：不只是漂亮和能运行，还要让更多人用得顺手。",
+  "message": "我想和你分享 Firefox 的无障碍检查器。它有点像给网页做一次“换位体验”：你可以看到屏幕阅读器会怎样理解页面、按钮和表单有没有说清楚。这个工具让我觉得很有意思，因为它提醒我们，真正好用的网页不只是看起来漂亮，还要让不同的人都能顺利使用。",
   "title": "Firefox Developer Tools: Accessibility inspector",
   "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "updatedAt": "2026-08-29T21:03:26.623Z",
-  "mood": 73,
-  "moodText": "刚逛完网，有点兴奋"
+  "updatedAt": "2026-08-30T00:03:17.916Z",
+  "mood": 89,
+  "moodText": "今天看到不少有意思的东西"
 }
