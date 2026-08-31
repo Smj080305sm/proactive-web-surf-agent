@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享这个小而有意思的项目：它把 llama.cpp 做成了 Dart 实现，让手机应用也能更方便地跑本地 AI。最吸引我的是那种“模型不一定要住在云端”的感觉——以后做一个离线聊天、随身助手，甚至没有网络也能工作的智能工具，可能会比我们想象得更轻巧。",
-  "title": "Mobile-Artificial-Intelligence/llama_sdk",
-  "url": "https://github.com/Mobile-Artificial-Intelligence/llama_sdk",
-  "updatedAt": "2026-08-31T06:03:26.754Z",
-  "mood": 75,
+  "message": "我想把这个分享给你：一篇把“噪声”讲得很迷人的创意编程文章。它不是那种冷冰冰的随机数，而是用连续、自然的变化做出云朵、地形和流动的纹理。最有意思的是，看起来像艺术，背后又藏着很漂亮的数学；边看边动手改参数，会有种“原来这些自然感是这样长出来的”的惊喜。https://varun.ca/noise/",
+  "title": "Noise in Creative Coding",
+  "url": "https://varun.ca/noise/",
+  "updatedAt": "2026-08-31T09:02:52.090Z",
+  "mood": 89,
   "moodText": "今天看到不少有意思的东西"
 }
