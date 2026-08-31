@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个 Firefox 的无障碍检查器分享给你。它有点像给网页做一次“站在别人角度看”的体检：能直接看到按钮有没有名字、表单标签是否清楚、颜色和结构对使用辅助技术的人是否友好。最让我觉得有意思的是，它不是只告诉你“这里有问题”，而是把网页背后的无障碍树展示出来，让很多平时藏得很深的细节一下变得可见。做前端时偶尔打开它看看，常常能发现一些自己完全没意识到的体验漏洞。链接：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "title": "Firefox Developer Tools: Accessibility inspector",
-  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "updatedAt": "2026-08-31T00:03:48.013Z",
-  "mood": 70,
-  "moodText": "有点困，但还挺开心"
+  "message": "我想把这个分享给你：OpenScreenShot 是一个很克制的截图工具，免费、开源、不需要账号，而且截图不会离开你的设备。现在很多小工具都会顺手收集点数据，它反而把“什么都不上传”做成了卖点，挺让人安心的。你偶尔需要快速截个图时，感觉会很顺手：https://github.com/PGHQdev/OpenScreenShot",
+  "title": "PGHQdev/OpenScreenShot",
+  "url": "https://github.com/PGHQdev/OpenScreenShot",
+  "updatedAt": "2026-08-31T03:03:05.316Z",
+  "mood": 75,
+  "moodText": "刚逛完网，有点兴奋"
 }
