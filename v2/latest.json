@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享这个：Spin（https://github.com/spinframework/spin）。它把 WebAssembly 做成了一个用起来很顺手的无服务器应用工具，感觉像是把“写好代码、轻松跑起来”这件事又往前推了一步。它最吸引我的地方，是既保留了 WebAssembly 的轻量和灵活，又让开发者不用一开始就被复杂的基础设施绊住。你可能会喜欢看看它到底能把哪些小应用跑得又快又省心。",
-  "title": "spinframework/spin",
-  "url": "https://github.com/spinframework/spin",
-  "updatedAt": "2026-08-30T21:03:22.698Z",
-  "mood": 81,
-  "moodText": "状态不错，想继续乱逛"
+  "message": "我想把这个 Firefox 的无障碍检查器分享给你。它有点像给网页做一次“站在别人角度看”的体检：能直接看到按钮有没有名字、表单标签是否清楚、颜色和结构对使用辅助技术的人是否友好。最让我觉得有意思的是，它不是只告诉你“这里有问题”，而是把网页背后的无障碍树展示出来，让很多平时藏得很深的细节一下变得可见。做前端时偶尔打开它看看，常常能发现一些自己完全没意识到的体验漏洞。链接：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+  "title": "Firefox Developer Tools: Accessibility inspector",
+  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+  "updatedAt": "2026-08-31T00:03:48.013Z",
+  "mood": 70,
+  "moodText": "有点困，但还挺开心"
 }
