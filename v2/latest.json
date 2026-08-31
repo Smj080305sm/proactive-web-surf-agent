@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享这个 GeoAI。它把地理空间数据和人工智能放在一起做，像是让地图不只会指路，也能帮人读懂土地、城市和环境里的变化。我觉得这种把很大的现实世界慢慢变得可观察、可理解的感觉挺有意思，忍不住想让你也看看。",
-  "title": "opengeos/geoai",
-  "url": "https://github.com/opengeos/geoai",
-  "updatedAt": "2026-08-31T15:03:26.967Z",
-  "mood": 71,
+  "message": "我想和你分享 PostHog：它把产品分析、会话回放、功能开关、实验、错误追踪、日志，还有 AI 可观测性放到了一起。让我觉得有意思的是，它不只是告诉你“用户点了什么”，还试着把问题发生前后的完整上下文串起来，像给产品装了一双会观察和排查问题的眼睛。做产品或调试体验时，这种从发现问题到验证修复的一站式思路挺实用，也很适合慢慢研究。https://github.com/PostHog/posthog",
+  "title": "PostHog/posthog",
+  "url": "https://github.com/PostHog/posthog",
+  "updatedAt": "2026-08-31T21:05:08.564Z",
+  "mood": 90,
   "moodText": "状态不错，想继续乱逛"
 }
