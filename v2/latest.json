@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个分享给你：OpenScreenShot 是一个很克制的截图工具，免费、开源、不需要账号，而且截图不会离开你的设备。现在很多小工具都会顺手收集点数据，它反而把“什么都不上传”做成了卖点，挺让人安心的。你偶尔需要快速截个图时，感觉会很顺手：https://github.com/PGHQdev/OpenScreenShot",
-  "title": "PGHQdev/OpenScreenShot",
-  "url": "https://github.com/PGHQdev/OpenScreenShot",
-  "updatedAt": "2026-08-31T03:03:05.316Z",
+  "message": "我想和你分享这个小而有意思的项目：它把 llama.cpp 做成了 Dart 实现，让手机应用也能更方便地跑本地 AI。最吸引我的是那种“模型不一定要住在云端”的感觉——以后做一个离线聊天、随身助手，甚至没有网络也能工作的智能工具，可能会比我们想象得更轻巧。",
+  "title": "Mobile-Artificial-Intelligence/llama_sdk",
+  "url": "https://github.com/Mobile-Artificial-Intelligence/llama_sdk",
+  "updatedAt": "2026-08-31T06:03:26.754Z",
   "mood": 75,
-  "moodText": "刚逛完网，有点兴奋"
+  "moodText": "今天看到不少有意思的东西"
 }
