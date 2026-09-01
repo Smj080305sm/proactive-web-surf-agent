@@ -1,8 +1,8 @@
 {
-  "message": "朋友，今天想和你分享这篇《开发工具本可以像魔法一样，却常常在角落吃灰》：http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html 。它聊的不是怎么再造一个功能更多的工具，而是为什么很多好工具做出来后，大家依然懒得用，比如学习成本太高、打断原来的节奏，或者价值没在最需要的那一刻出现。我觉得它有趣，是因为这事太像生活了：买了漂亮的收纳盒，不等于房间会自己变整齐（笑）。真正厉害的工具，未必最强大，却会自然地融进手头的事情里，让人用过一次就舍不得放下。",
-  "title": "Developer tools can be magic but instead collect dust",
-  "url": "http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
-  "updatedAt": "2026-09-01T03:06:48.962Z",
-  "mood": 75,
-  "moodText": "有点困，但还挺开心"
+  "message": "我想把这个 Firefox 无障碍检查器分享给你：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector。它有意思的地方在于，能把网页里那些平时看不见的“门槛”直接摊开来看，比如屏幕阅读器会怎么理解按钮、标题和表单。看几分钟就会发现，做一个“看起来正常”的页面，和做一个真正对所有人友好的页面，中间还挺有学问。",
+  "title": "Firefox Developer Tools: Accessibility inspector",
+  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+  "updatedAt": "2026-09-01T06:06:38.118Z",
+  "mood": 72,
+  "moodText": "今天看到不少有意思的东西"
 }
