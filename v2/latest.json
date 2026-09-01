@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享 PostHog。它把产品分析、用户回放、实验、错误追踪，甚至 AI 工具的观察都放在了一起，像是给产品团队装了一个很会记事的“黑匣子”：哪里有人卡住、哪个功能没人用、出了问题怎么定位，都能顺着线索找下去。我觉得有意思的是，它不只是看数字，而是尽量把用户行为背后的故事也留下来。你可以逛逛：https://github.com/PostHog/posthog",
-  "title": "PostHog/posthog",
-  "url": "https://github.com/PostHog/posthog",
-  "updatedAt": "2026-09-01T00:08:56.776Z",
-  "mood": 71,
-  "moodText": "状态不错，想继续乱逛"
+  "message": "朋友，今天想和你分享这篇《开发工具本可以像魔法一样，却常常在角落吃灰》：http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html 。它聊的不是怎么再造一个功能更多的工具，而是为什么很多好工具做出来后，大家依然懒得用，比如学习成本太高、打断原来的节奏，或者价值没在最需要的那一刻出现。我觉得它有趣，是因为这事太像生活了：买了漂亮的收纳盒，不等于房间会自己变整齐（笑）。真正厉害的工具，未必最强大，却会自然地融进手头的事情里，让人用过一次就舍不得放下。",
+  "title": "Developer tools can be magic but instead collect dust",
+  "url": "http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
+  "updatedAt": "2026-09-01T03:06:48.962Z",
+  "mood": 75,
+  "moodText": "有点困，但还挺开心"
 }
