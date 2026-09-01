@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个 Firefox 无障碍检查器分享给你：https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector。它有意思的地方在于，能把网页里那些平时看不见的“门槛”直接摊开来看，比如屏幕阅读器会怎么理解按钮、标题和表单。看几分钟就会发现，做一个“看起来正常”的页面，和做一个真正对所有人友好的页面，中间还挺有学问。",
-  "title": "Firefox Developer Tools: Accessibility inspector",
-  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "updatedAt": "2026-09-01T06:06:38.118Z",
-  "mood": 72,
-  "moodText": "今天看到不少有意思的东西"
+  "message": "我想和你分享这个小工具：一个 Chrome 扩展，可以直接检查、监控和手动执行 WebMCP 工具。它有点像给浏览器里的 AI 工具装了一个透明观察窗，出了问题能看得更清楚，也方便边试边调。我觉得它有意思，是因为 WebMCP 还在慢慢长大，这种实用的调试工具已经先出现了，挺有“未来正在偷偷开门”的感觉。https://github.com/beaufortfrancois/model-context-tool-inspector",
+  "title": "beaufortfrancois/model-context-tool-inspector",
+  "url": "https://github.com/beaufortfrancois/model-context-tool-inspector",
+  "updatedAt": "2026-09-01T09:04:56.548Z",
+  "mood": 83,
+  "moodText": "有点困，但还挺开心"
 }
