@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享 LiteGraph：它是一个轻量级图数据库，把关系数据、向量检索和 MCP 放在了一起。这个组合挺有意思，像是给知识库装上了几种不同的“记忆方式”——既能查清楚对象之间的关系，也能按语义找相近内容，还方便接入 AI 工具。很适合拿来琢磨下一代知识库会怎么长出来。https://github.com/litegraphdb/litegraph",
-  "title": "litegraphdb/litegraph",
-  "url": "https://github.com/litegraphdb/litegraph",
-  "updatedAt": "2026-09-02T18:05:48.325Z",
-  "mood": 79,
-  "moodText": "状态不错，想继续乱逛"
+  "message": "我想和你分享 Firefox 的无障碍检查器。它能把网页里那些平时不容易注意到的问题直接摊开来看，比如按钮有没有清楚的名称、页面结构是否合理、辅助技术能不能顺利读懂。让我觉得有意思的是，它像给网页装了一副“换位思考”的眼镜：不只是看页面漂不漂亮，还能发现不同用户实际用起来顺不顺手。",
+  "title": "Firefox Developer Tools: Accessibility inspector",
+  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
+  "updatedAt": "2026-09-02T21:04:48.753Z",
+  "mood": 85,
+  "moodText": "有点困，但还挺开心"
 }
