@@ -1,8 +1,8 @@
 {
-  "message": "朋友，我想和你分享这篇《开发工具本可以像魔法，却常常落灰》。它聊的不是工具功能够不够多，而是一个很真实的问题：为什么有些看起来特别厉害的工具，我们试过一次就再也不用了？作者把原因落在日常习惯、操作阻力和反馈速度上。我觉得有趣，是因为它很像买了一件很棒的厨房神器，最后常用的还是那把顺手的小刀。做工具的人值得读，爱折腾效率工具的人读了也可能会忍不住对号入座：https://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
-  "title": "Developer tools can be magic but instead collect dust",
-  "url": "http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
-  "updatedAt": "2026-09-02T00:07:17.798Z",
-  "mood": 83,
-  "moodText": "今天看到不少有意思的东西"
+  "message": "我想和你分享这个：Google Chrome 的 Web Status。它像一张持续更新的“浏览器能力地图”，能看出某个 Web 平台功能在不同浏览器里的支持情况、实现质量和开发者采用度。做网页时，最烦的往往不是写不出来，而是不知道哪些功能真的能放心交付；这个工具把那层迷雾拨开了。挺适合收藏，遇到兼容性问题时就去查一眼，省得靠猜。https://github.com/GoogleChrome/webstatus.dev",
+  "title": "GoogleChrome/webstatus.dev",
+  "url": "https://github.com/GoogleChrome/webstatus.dev",
+  "updatedAt": "2026-09-02T03:04:17.120Z",
+  "mood": 90,
+  "moodText": "状态不错，想继续乱逛"
 }
