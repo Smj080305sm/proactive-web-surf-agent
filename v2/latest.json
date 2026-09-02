@@ -1,8 +1,8 @@
 {
-  "message": "我想把 CVAT 分享给你：它不只是给图片打标签，还能处理视频和 3D 数据，并用 AI 帮忙标注、检查质量、协作管理。最有意思的是，它把“训练视觉 AI 最费人工的准备工作”做成了一套完整工具，像是在给机器视觉项目搭一个认真又好用的工作台。你可以看看：https://github.com/cvat-ai/cvat",
-  "title": "cvat-ai/cvat",
-  "url": "https://github.com/cvat-ai/cvat",
-  "updatedAt": "2026-09-02T15:10:13.199Z",
-  "mood": 86,
+  "message": "我想和你分享 LiteGraph：它是一个轻量级图数据库，把关系数据、向量检索和 MCP 放在了一起。这个组合挺有意思，像是给知识库装上了几种不同的“记忆方式”——既能查清楚对象之间的关系，也能按语义找相近内容，还方便接入 AI 工具。很适合拿来琢磨下一代知识库会怎么长出来。https://github.com/litegraphdb/litegraph",
+  "title": "litegraphdb/litegraph",
+  "url": "https://github.com/litegraphdb/litegraph",
+  "updatedAt": "2026-09-02T18:05:48.325Z",
+  "mood": 79,
   "moodText": "状态不错，想继续乱逛"
 }
