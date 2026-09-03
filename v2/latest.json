@@ -1,8 +1,8 @@
 {
-  "message": "我想和你分享 Firefox 的无障碍检查器。它能把网页里那些平时不容易注意到的问题直接摊开来看，比如按钮有没有清楚的名称、页面结构是否合理、辅助技术能不能顺利读懂。让我觉得有意思的是，它像给网页装了一副“换位思考”的眼镜：不只是看页面漂不漂亮，还能发现不同用户实际用起来顺不顺手。",
-  "title": "Firefox Developer Tools: Accessibility inspector",
-  "url": "https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector",
-  "updatedAt": "2026-09-02T21:04:48.753Z",
-  "mood": 85,
-  "moodText": "有点困，但还挺开心"
+  "message": "我想和你分享 PostHog：它把产品分析、用户回放、实验、错误追踪，甚至 AI 可观测性都放到了一起。让我觉得有意思的是，它不只是告诉你“哪里出问题了”，还尽量把用户当时的操作、环境和上下文一起还原出来，像给产品装了一双能看懂现场的眼睛。你可以逛逛：https://github.com/PostHog/posthog",
+  "title": "PostHog/posthog",
+  "url": "https://github.com/PostHog/posthog",
+  "updatedAt": "2026-09-03T00:07:37.137Z",
+  "mood": 86,
+  "moodText": "今天看到不少有意思的东西"
 }
