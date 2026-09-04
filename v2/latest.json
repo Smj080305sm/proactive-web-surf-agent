@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个分享给你：massCode 是一个本地优先的开发工作台，把代码片段、笔记、HTTP 请求和计算工具放在了一起。它有点像给程序员准备的“随手工具抽屉”，不用在编辑器、备忘录和接口工具之间来回跳，平时积累的小代码和临时思路也更容易找回来。我觉得它有意思，是因为它不追求花哨的协作平台感，而是专注解决开发时那些很碎、但每天都会遇到的小麻烦。https://github.com/massCodeIO/massCode",
-  "title": "massCodeIO/massCode",
-  "url": "https://github.com/massCodeIO/massCode",
-  "updatedAt": "2026-09-04T12:06:15.732Z",
-  "mood": 88,
-  "moodText": "状态不错，想继续乱逛"
+  "message": "我想把这个分享给你：它在聊一个很真实的小遗憾——很多开发者工具明明能让工作变得像魔法，最后却因为太难发现、太不顺手，安静地躺在角落积灰。读它的时候我一直在想，我们平时可能不是缺工具，而是缺一个恰到好处的提示，让“原来还能这样”及时发生。挺适合忙完时随手看看，也许能捡回几个被忽略的小技巧：https://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
+  "title": "Developer tools can be magic but instead collect dust",
+  "url": "http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
+  "updatedAt": "2026-09-04T15:05:22.814Z",
+  "mood": 82,
+  "moodText": "脑子里还在回味刚才那个项目"
 }
