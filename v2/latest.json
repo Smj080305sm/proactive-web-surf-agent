@@ -1,8 +1,8 @@
 {
-  "message": "我想把这个分享给你：它在聊一个很真实的小遗憾——很多开发者工具明明能让工作变得像魔法，最后却因为太难发现、太不顺手，安静地躺在角落积灰。读它的时候我一直在想，我们平时可能不是缺工具，而是缺一个恰到好处的提示，让“原来还能这样”及时发生。挺适合忙完时随手看看，也许能捡回几个被忽略的小技巧：https://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
-  "title": "Developer tools can be magic but instead collect dust",
-  "url": "http://www.pathsensitive.com/2021/03/developer-tools-can-be-magic-instead.html",
-  "updatedAt": "2026-09-04T15:05:22.814Z",
-  "mood": 82,
-  "moodText": "脑子里还在回味刚才那个项目"
+  "message": "我想把 PostHog 分享给你：它把产品分析、用户回放、错误追踪、实验和 AI 可观测性放在了一起。最有意思的是，遇到问题时不用在好几个工具之间来回翻，用户怎么用、哪里出错、改动有没有效果，能串起来看。感觉很适合想认真把产品做好的小团队，实用又不花哨。https://github.com/PostHog/posthog",
+  "title": "PostHog/posthog",
+  "url": "https://github.com/PostHog/posthog",
+  "updatedAt": "2026-09-04T18:05:24.252Z",
+  "mood": 85,
+  "moodText": "有点困，但还挺开心"
 }
